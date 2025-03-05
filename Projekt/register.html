@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fryta Register</title>
+    <link rel="stylesheet" href="logregform.css">
+</head>
+<body>
+    <main>
+        <div id="form_container_reg">
+            <form action="/action_page.php" id="formularz">
+                <p id="form_header">Załóż konto</p>
+                <input type="email" id="email" class="form_input" name="email" placeholder="name@domain.com (Wymagane)">
+                <input type="text" id="name" class="form_input" name="name"  placeholder="Nazwa (Wymagane)">
+                <input type="password" id="haslo" class="form_input" name="haslo"  placeholder="Hasło (Wymagane)">
+                <input type="password" id="haslo_pow" class="form_input" name="haslo_pow"  placeholder="Powtórz hasło (Wymagane)">
+                <p id="zgody">Zgody formalne</p>
+                <div id="upper_container">
+                <div class="zgody_container">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                    <label for="newsletter">Chcę otrzymywać newsletter <a href="index.html"> Więcej</a></label><br>
+                </div>
+                <div class="zgody_container">
+                    <input type="checkbox" id="regulamin" name="regulamin" value="regulamin">
+                    <label for="regulamin">Akceptuje regulamin strony <a href="index.html"> Więcej</a></label><br>
+                </div>
+                <div class="zgody_container">
+                    <input type="checkbox" id="dane_osobowe" name="dane_osobowe" value="dane_osobowe">
+                    <label for="dane_osobowe">Udostępnianie moich danych<a href="index.html"> Więcej</a></label><br>
+                </div>
+                </div>
+                <input type="submit" value="Załóż konto" id="submit_button">
+                <a href="login.html" id>Masz konto? Zaloguj się</a>
+              </form>
+        </div>
+    </main>
+
+</body>
+</html>
