@@ -15,20 +15,20 @@
         </div>
 
         <div id="middle-header">
-            <li>
-                <ul>
-                    <a href="oferta.html" class="menu-anchor">Oferta 🡣</a>
-                </ul>
-                <ul class="menu-kierunki">
+            <ul>
+                <li class="menu-kierunki">
                     <a href="kierunki.html" class="menu-anchor">Kierunki</a>
-                </ul>
-                <ul class="menu-o-nas">
+                </li>
+                <li class="menu-o-nas">
                     <a href="onas.html" class="menu-anchor">O nas</a>
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <a href="kontakt.html" class="menu-anchor">Kontakt</a>
-                </ul>
-            </li>
+                </li>
+                <li>
+                    <a href="oferta.html" class="menu-anchor">Oferta 🡣</a>
+                </li>
+            </ul>
         </div>
 
         <div id="right-header">
@@ -95,8 +95,10 @@
                     Pozwól nam się z tobą skontaktować!
                 </h2>
                 <div class="lower-contact-form">
-                    <input type="email" placeholder="Email" class="contact-form-input">
-                    <button class="button-contact button-send">Wyślij</button>
+                    <form action="/action_page.php">
+                        <input type="email" placeholder="Email" class="contact-form-input">
+                        <input type="submit" value="Submit" class="button-contact button-send">
+                    </form>
                 </div>
             </div>
         </div>
